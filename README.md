@@ -63,6 +63,8 @@ git clone git@github.com:navneeth-sortur/js-strings-interview-problems.git
 cd js-string-interview-problems/problems
 node 01-reverse-string.js
 
+```
+
 ## ⚙️ Tech Used
 
 - **JavaScript (ES6+)**
@@ -89,4 +91,3 @@ Open a pull request or start a discussion in the Issues tab.
 ## 📄 License
 
 This project is licensed under the [MIT License](LICENSE).
-```
