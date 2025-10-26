@@ -62,6 +62,12 @@ const reverseWordsOptimized = sentence => {
 };
 
 // 🔍 Example Test Cases
-console.log(`Brute-force: ${reverseWordsBruteForce("Hello World JavaScript")}`); // "JavaScript World Hello"
-console.log(`Built-in: ${reverseWordsBuiltIn("I love coding")}`); // "coding love I"
-console.log(`Optimized: ${reverseWordsOptimized("Frontend Developer Rocks")}`); // "Rocks Developer Frontend"
+// console.log(`Brute-force: ${reverseWordsBruteForce("Hello World JavaScript")}`); // "JavaScript World Hello"
+// console.log(`Built-in: ${reverseWordsBuiltIn("I love coding")}`); // "coding love I"
+// console.log(`Optimized: ${reverseWordsOptimized("Frontend Developer Rocks")}`); // "Rocks Developer Frontend"
+
+module.exports = {
+  reverseWordsBruteForce,
+  reverseWordsBuiltIn,
+  reverseWordsOptimized
+};

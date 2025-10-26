@@ -38,6 +38,12 @@ const generateAcronymOptimized = phrase =>
   (phrase.match(/\b\w/g) || []).join("").toUpperCase();
 
 // 🔍 Example Test Cases
-console.log(generateAcronymBruteForce("As Soon As Possible")); // "ASAP"
-console.log(generateAcronymBuiltIn("Read The Fine Manual")); // "RTFM"
-console.log(generateAcronymOptimized("International Cricket Council")); // "ICC"
+// console.log(generateAcronymBruteForce("As Soon As Possible")); // "ASAP"
+// console.log(generateAcronymBuiltIn("Read The Fine Manual")); // "RTFM"
+// console.log(generateAcronymOptimized("International Cricket Council")); // "ICC"
+
+module.exports = {
+  generateAcronymBruteForce,
+  generateAcronymBuiltIn,
+  generateAcronymOptimized
+};

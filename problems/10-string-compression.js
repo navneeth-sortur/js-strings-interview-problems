@@ -52,5 +52,10 @@ const compressStringOptimized = str => {
 };
 
 // 🔍 Example Test Cases
-console.log(`Brute-force: ${compressStringBruteForce("aaabbccccd")}`); // "a3b2c4d1"
-console.log(`Optimized: ${compressStringOptimized("aabccc")}`); // "a2b1c3"
+// console.log(`Brute-force: ${compressStringBruteForce("aaabbccccd")}`); // "a3b2c4d1"
+// console.log(`Optimized: ${compressStringOptimized("aabccc")}`); // "a2b1c3"
+
+module.exports = {
+  compressStringBruteForce,
+  compressStringOptimized
+};

@@ -58,6 +58,12 @@ const firstNonRepeatingOptimized = str => {
 };
 
 // 🔍 Example Test Cases
-console.log(`Brute-force: ${firstNonRepeatingBruteForce("stress")}`); // "t"
-console.log(`Built-in: ${firstNonRepeatingBuiltIn("aabbcdd")}`); // "c"
-console.log(`Optimized: ${firstNonRepeatingOptimized("racecars")}`); // "e"
+// console.log(`Brute-force: ${firstNonRepeatingBruteForce("stress")}`); // "t"
+// console.log(`Built-in: ${firstNonRepeatingBuiltIn("aabbcdd")}`); // "c"
+// console.log(`Optimized: ${firstNonRepeatingOptimized("racecars")}`); // "e"
+
+module.exports = {
+  firstNonRepeatingBruteForce,
+  firstNonRepeatingBuiltIn,
+  firstNonRepeatingOptimized
+};

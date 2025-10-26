@@ -61,8 +61,14 @@ const longestCommonPrefixOptimized = arr => {
 };
 
 // 🔍 Example Test Cases
-console.log(longestCommonPrefixBruteForce(["flower", "flow", "flight"])); // "fl"
-console.log(longestCommonPrefixBuiltIn(["dog", "racecar", "car"])); // ""
-console.log(
-  longestCommonPrefixOptimized(["interview", "internet", "internal"])
-); // "inter"
+// console.log(longestCommonPrefixBruteForce(["flower", "flow", "flight"])); // "fl"
+// console.log(longestCommonPrefixBuiltIn(["dog", "racecar", "car"])); // ""
+// console.log(
+//   longestCommonPrefixOptimized(["interview", "internet", "internal"])
+// ); // "inter"
+
+module.exports = {
+  longestCommonPrefixBruteForce,
+  longestCommonPrefixBuiltIn,
+  longestCommonPrefixOptimized
+};

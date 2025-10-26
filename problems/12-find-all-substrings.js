@@ -42,5 +42,10 @@ const findAllSubstringsOptimized = str => {
 };
 
 // 🔍 Example Test Cases
-console.log(findAllSubstringsBruteForce("abc")); // ["a","ab","abc","b","bc","c"]
-console.log(findAllSubstringsOptimized("abcd")); // ["a",    "ab", "abc", "abcd", "b",  "bc", "bcd",  "c",  "cd", "d"]
+// console.log(findAllSubstringsBruteForce("abc")); // ["a","ab","abc","b","bc","c"]
+// console.log(findAllSubstringsOptimized("abcd")); // ["a",    "ab", "abc", "abcd", "b",  "bc", "bcd",  "c",  "cd", "d"]
+
+module.exports = {
+  findAllSubstringsBruteForce,
+  findAllSubstringsOptimized
+};

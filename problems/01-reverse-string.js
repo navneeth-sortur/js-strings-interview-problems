@@ -47,6 +47,12 @@ const reverseStringInPlace = str => {
 };
 
 // 🔍 Example Test Cases
-console.log(`Brute-force: ${reverseStringBruteForce("hello")}`); // "olleh"
-console.log(`Built-in: ${reverseStringBuiltIn("world")}`); // "dlrow"
-console.log(`In-place Swap: ${reverseStringInPlace("JavaScript")}`); // "tpircSavaJ"
+// console.log(`Brute-force: ${reverseStringBruteForce("hello")}`); // "olleh"
+// console.log(`Built-in: ${reverseStringBuiltIn("world")}`); // "dlrow"
+// console.log(`In-place Swap: ${reverseStringInPlace("JavaScript")}`); // "tpircSavaJ"
+
+module.exports = {
+  reverseStringBruteForce,
+  reverseStringBuiltIn,
+  reverseStringInPlace
+};

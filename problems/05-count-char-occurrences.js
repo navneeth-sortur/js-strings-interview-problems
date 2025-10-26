@@ -55,6 +55,12 @@ const countCharOccurrencesOptimized = str => {
 };
 
 // 🔍 Example Test Cases
-console.log("Brute-force:", countCharOccurrencesBruteForce("mangoes")); // { m: 1, a: 1, n: 1, g: 1, o: 1, e: 1, s: 1 }
-console.log("Built-in:", countCharOccurrencesBuiltIn("banana")); // { b:1, a:3, n:2 }
-console.log("Optimized:", countCharOccurrencesOptimized("apple")); // { a:1, p:2, l:1, e:1 }
+// console.log("Brute-force:", countCharOccurrencesBruteForce("mangoes")); // { m: 1, a: 1, n: 1, g: 1, o: 1, e: 1, s: 1 }
+// console.log("Built-in:", countCharOccurrencesBuiltIn("banana")); // { b:1, a:3, n:2 }
+// console.log("Optimized:", countCharOccurrencesOptimized("apple")); // { a:1, p:2, l:1, e:1 }
+
+module.exports = {
+  countCharOccurrencesBruteForce,
+  countCharOccurrencesBuiltIn,
+  countCharOccurrencesOptimized
+};

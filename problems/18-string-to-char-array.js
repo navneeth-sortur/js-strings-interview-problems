@@ -29,6 +29,12 @@ const stringToCharArrayBuiltIn = str => str.split("");
 const stringToCharArrayOptimized = str => [...str];
 
 // 🔍 Example Test Cases
-console.log(stringToCharArrayBruteForce("hello")); // [ 'h', 'e', 'l', 'l', 'o' ]
-console.log(stringToCharArrayBuiltIn("JS")); // [ 'J', 'S' ]
-console.log(stringToCharArrayOptimized("Programming")); // ['P', 'r', 'o', 'g','r', 'a', 'm', 'm','i', 'n', 'g']
+// console.log(stringToCharArrayBruteForce("hello")); // [ 'h', 'e', 'l', 'l', 'o' ]
+// console.log(stringToCharArrayBuiltIn("JS")); // [ 'J', 'S' ]
+// console.log(stringToCharArrayOptimized("Programming")); // ['P', 'r', 'o', 'g','r', 'a', 'm', 'm','i', 'n', 'g']
+
+module.exports = {
+  stringToCharArrayBruteForce,
+  stringToCharArrayBuiltIn,
+  stringToCharArrayOptimized
+};

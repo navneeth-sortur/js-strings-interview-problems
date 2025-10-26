@@ -39,6 +39,12 @@ const countWordsBuiltIn = str => str.split(" ").filter(Boolean).length;
 const countWordsOptimized = str => (str.match(/\b\w+\b/g) || []).length;
 
 // 🔍 Example Test Cases
-console.log(countWordsBruteForce("Hello world!")); // 2
-console.log(countWordsBuiltIn("   This is   a test  ")); // 4
-console.log(countWordsOptimized("Count words in a sentence")); // 5
+// console.log(countWordsBruteForce("Hello world!")); // 2
+// console.log(countWordsBuiltIn("   This is   a test  ")); // 4
+// console.log(countWordsOptimized("Count words in a sentence")); // 5
+
+module.exports = {
+  countWordsBruteForce,
+  countWordsBuiltIn,
+  countWordsOptimized
+};

@@ -1,0 +1,23 @@
+{
+  "name": "js-strings-interview-problems",
+  "version": "1.0.0",
+  "description": "A curated collection of **JavaScript string manipulation challenges**, solved from **brute-force → optimized approach**, with full explanations and complexity analysis.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/navneeth-sortur/js-strings-interview-problems.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/navneeth-sortur/js-strings-interview-problems/issues"
+  },
+  "homepage": "https://github.com/navneeth-sortur/js-strings-interview-problems#readme",
+  "devDependencies": {
+    "jest": "^30.2.0"
+  }
+}

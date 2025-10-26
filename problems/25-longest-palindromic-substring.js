@@ -91,6 +91,12 @@ const longestPalindromeDP = str => {
 };
 
 // 🔍 Example Test Cases
-console.log(longestPalindromeBruteForce("babad")); // "bab" or "aba"
-console.log(longestPalindromeExpandCenter("cbbd")); // "bb"
-console.log(longestPalindromeDP("racecarbananab")); // "racecar"
+// console.log(longestPalindromeBruteForce("babad")); // "bab" or "aba"
+// console.log(longestPalindromeExpandCenter("cbbd")); // "bb"
+// console.log(longestPalindromeDP("racecarbananab")); // "racecar"
+
+module.exports = {
+  longestPalindromeBruteForce,
+  longestPalindromeExpandCenter,
+  longestPalindromeDP
+};

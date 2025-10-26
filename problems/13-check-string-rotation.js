@@ -40,9 +40,15 @@ const isRotationOptimized = (str1, str2) => {
 };
 
 // 🔍 Example Test Cases
-console.log(
-  `Brute-force: ${isRotationBruteForce("waterbottle", "erbottlewat")}`
-); // true
-console.log(`Built-in: ${isRotationBuiltIn("abcde", "deabc")}`); // true
-console.log(`Optimized: ${isRotationOptimized("hello", "llohe")}`); // true
-console.log(`Optimized: ${isRotationOptimized("abc", "cabx")}`); // false
+// console.log(
+//   `Brute-force: ${isRotationBruteForce("waterbottle", "erbottlewat")}`
+// ); // true
+// console.log(`Built-in: ${isRotationBuiltIn("abcde", "deabc")}`); // true
+// console.log(`Optimized: ${isRotationOptimized("hello", "llohe")}`); // true
+// console.log(`Optimized: ${isRotationOptimized("abc", "cabx")}`); // false
+
+module.exports = {
+  isRotationBruteForce,
+  isRotationBuiltIn,
+  isRotationOptimized
+};

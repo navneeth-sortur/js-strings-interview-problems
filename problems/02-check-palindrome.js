@@ -49,7 +49,13 @@ const isPalindromeTwoPointer = str => {
 };
 
 // 🔍 Example Test Cases
-console.log(`Brute-force: ${isPalindromeBruteForce("madam")}`); // true
-console.log(`Built-in: ${isPalindromeBuiltIn("racecar")}`); // true
-console.log(`Two-pointer: ${isPalindromeTwoPointer("level")}`); // true
-console.log(`Not a palindrome: ${isPalindromeTwoPointer("hello")}`); // false
+// console.log(`Brute-force: ${isPalindromeBruteForce("madam")}`); // true
+// console.log(`Built-in: ${isPalindromeBuiltIn("racecar")}`); // true
+// console.log(`Two-pointer: ${isPalindromeTwoPointer("level")}`); // true
+// console.log(`Not a palindrome: ${isPalindromeTwoPointer("hello")}`); // false
+
+module.exports = {
+  isPalindromeBruteForce,
+  isPalindromeBuiltIn,
+  isPalindromeTwoPointer
+};

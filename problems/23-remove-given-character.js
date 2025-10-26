@@ -32,6 +32,12 @@ const removeCharOptimized = (str, target) =>
   str.replace(new RegExp(target, "g"), "");
 
 // 🔍 Example Test Cases
-console.log(removeCharBruteForce("banana", "a")); // "bnn"
-console.log(removeCharBuiltIn("hello world", "l")); // "heo word"
-console.log(removeCharOptimized("apple", "p")); // "ale"
+// console.log(removeCharBruteForce("banana", "a")); // "bnn"
+// console.log(removeCharBuiltIn("hello world", "l")); // "heo word"
+// console.log(removeCharOptimized("apple", "p")); // "ale"
+
+module.exports = {
+  removeCharBruteForce,
+  removeCharBuiltIn,
+  removeCharOptimized
+};

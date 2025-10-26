@@ -37,6 +37,12 @@ const removeWhitespaceOptimized = str =>
   [...str].filter(ch => ch.trim() !== "").join("");
 
 // 🔍 Example Test Cases
-console.log(`Brute-force: "${removeWhitespaceBruteForce("  Hello World  ")}"`); // "HelloWorld"
-console.log(`Built-in: "${removeWhitespaceBuiltIn("Hi \t there\n friend")}"`); // "Hitherefriend"
-console.log(`Optimized: "${removeWhitespaceOptimized("  JS Rocks  ")}"`); // "JSRocks"
+// console.log(`Brute-force: "${removeWhitespaceBruteForce("  Hello World  ")}"`); // "HelloWorld"
+// console.log(`Built-in: "${removeWhitespaceBuiltIn("Hi \t there\n friend")}"`); // "Hitherefriend"
+// console.log(`Optimized: "${removeWhitespaceOptimized("  JS Rocks  ")}"`); // "JSRocks"
+
+module.exports = {
+  removeWhitespaceBruteForce,
+  removeWhitespaceBuiltIn,
+  removeWhitespaceOptimized
+};

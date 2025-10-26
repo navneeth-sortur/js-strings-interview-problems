@@ -56,7 +56,13 @@ const stringToIntegerOptimized = str => {
 };
 
 // 🔍 Example Test Cases
-console.log(`Brute-force: ${stringToIntegerBruteForce("42")}`); // 42
-console.log(`Brute-force: ${stringToIntegerBruteForce("   -42")}`); // -42
-console.log(`Built-in: ${stringToIntegerBuiltIn("4193 with words")}`); // 4193
-console.log(`Optimized: ${stringToIntegerOptimized("words and 987")}`); // 0
+// console.log(`Brute-force: ${stringToIntegerBruteForce("42")}`); // 42
+// console.log(`Brute-force: ${stringToIntegerBruteForce("   -42")}`); // -42
+// console.log(`Built-in: ${stringToIntegerBuiltIn("4193 with words")}`); // 4193
+// console.log(`Optimized: ${stringToIntegerOptimized("words and 987")}`); // 0
+
+module.exports = {
+  stringToIntegerBruteForce,
+  stringToIntegerBuiltIn,
+  stringToIntegerOptimized
+};

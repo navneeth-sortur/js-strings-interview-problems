@@ -32,6 +32,12 @@ const urlEncodeBuiltIn = str => encodeURIComponent(str);
 const urlEncodeOptimized = str => str.replace(/ /g, "%20");
 
 // 🔍 Example Test Cases
-console.log(urlEncodeBruteForce("Hello World!")); // "Hello%20World%21"
-console.log(urlEncodeBuiltIn("React JS @ 2025")); // "React%20JS%20%40%202025"
-console.log(urlEncodeOptimized("Encode this text")); // "Encode%20this%20text"
+// console.log(urlEncodeBruteForce("Hello World!")); // "Hello%20World%21"
+// console.log(urlEncodeBuiltIn("React JS @ 2025")); // "React%20JS%20%40%202025"
+// console.log(urlEncodeOptimized("Encode this text")); // "Encode%20this%20text"
+
+module.exports = {
+  urlEncodeBruteForce,
+  urlEncodeBuiltIn,
+  urlEncodeOptimized
+};

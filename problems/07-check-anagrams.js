@@ -66,8 +66,14 @@ const areAnagramsOptimized = (str1, str2) => {
 };
 
 // 🔍 Example Test Cases
-console.log(`Brute-force: ${areAnagramsBruteForce("ab", "ba")}`); // true
-console.log(`Built-in: ${areAnagramsBuiltIn("listen", "silent")}`); // true
-console.log(`Optimized: ${areAnagramsOptimized("triangle", "integral")}`); // true
-console.log(`Optimized: ${areAnagramsOptimized("apple", "papel")}`); // true
-console.log(`Optimized: ${areAnagramsOptimized("rat", "car")}`); // false
+// console.log(`Brute-force: ${areAnagramsBruteForce("ab", "ba")}`); // true
+// console.log(`Built-in: ${areAnagramsBuiltIn("listen", "silent")}`); // true
+// console.log(`Optimized: ${areAnagramsOptimized("triangle", "integral")}`); // true
+// console.log(`Optimized: ${areAnagramsOptimized("apple", "papel")}`); // true
+// console.log(`Optimized: ${areAnagramsOptimized("rat", "car")}`); // false
+
+module.exports = {
+  areAnagramsBruteForce,
+  areAnagramsBuiltIn,
+  areAnagramsOptimized
+};

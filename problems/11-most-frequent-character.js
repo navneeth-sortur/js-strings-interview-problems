@@ -67,6 +67,12 @@ const mostFrequentCharOptimized = str => {
 };
 
 // 🔍 Example Test Cases
-console.log(`Brute-force: ${mostFrequentCharBruteForce("javascript")}`); // "a"
-console.log(`Built-in: ${mostFrequentCharBuiltIn("aabbbccdeee")}`); // "b"
-console.log(`Optimized: ${mostFrequentCharOptimized("hellooo")}`); // "o"
+// console.log(`Brute-force: ${mostFrequentCharBruteForce("javascript")}`); // "a"
+// console.log(`Built-in: ${mostFrequentCharBuiltIn("aabbbccdeee")}`); // "b"
+// console.log(`Optimized: ${mostFrequentCharOptimized("hellooo")}`); // "o"
+
+module.exports = {
+  mostFrequentCharBruteForce,
+  mostFrequentCharBuiltIn,
+  mostFrequentCharOptimized
+};

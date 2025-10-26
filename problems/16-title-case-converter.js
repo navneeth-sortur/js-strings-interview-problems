@@ -38,6 +38,12 @@ const toTitleCaseOptimized = str =>
   str.toLowerCase().replace(/\b\w/g, char => char.toUpperCase());
 
 // 🔍 Example Test Cases
-console.log(toTitleCaseBruteForce("hello world with js")); // "Hello World With Js"
-console.log(toTitleCaseBuiltIn("JAVA script LANGUAGE")); // "Java Script Language"
-console.log(toTitleCaseOptimized("good morning!")); // "Good Morning!"
+// console.log(toTitleCaseBruteForce("hello world with js")); // "Hello World With Js"
+// console.log(toTitleCaseBuiltIn("JAVA script LANGUAGE")); // "Java Script Language"
+// console.log(toTitleCaseOptimized("good morning!")); // "Good Morning!"
+
+module.exports = {
+  toTitleCaseBruteForce,
+  toTitleCaseBuiltIn,
+  toTitleCaseOptimized
+};

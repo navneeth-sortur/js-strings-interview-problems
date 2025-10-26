@@ -41,6 +41,12 @@ const findShortestWordOptimized = str => {
 };
 
 // 🔍 Example Test Cases
-console.log(findShortestWordBruteForce("The quick brown fox")); // "The"
-console.log(findShortestWordBuiltIn("Jump over lazy dog")); // "dog"
-console.log(findShortestWordOptimized("Find the smallest word")); // "the"
+// console.log(findShortestWordBruteForce("The quick brown fox")); // "The"
+// console.log(findShortestWordBuiltIn("Jump over lazy dog")); // "dog"
+// console.log(findShortestWordOptimized("Find the smallest word")); // "the"
+
+module.exports = {
+  findShortestWordBruteForce,
+  findShortestWordBuiltIn,
+  findShortestWordOptimized
+};

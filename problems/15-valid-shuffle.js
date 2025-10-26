@@ -43,6 +43,11 @@ const isValidShuffleOptimized = (str1, str2, result) => {
 };
 
 // 🔍 Example Test Cases
-console.log(`Built-in: ${isValidShuffleBuiltIn("abc", "def", "dabecf")}`); // true
-console.log(`Optimized: ${isValidShuffleOptimized("abc", "def", "dabecf")}`); // true
-console.log(`Optimized: ${isValidShuffleOptimized("ab", "cd", "adbcx")}`); // false
+// console.log(`Built-in: ${isValidShuffleBuiltIn("abc", "def", "dabecf")}`); // true
+// console.log(`Optimized: ${isValidShuffleOptimized("abc", "def", "dabecf")}`); // true
+// console.log(`Optimized: ${isValidShuffleOptimized("ab", "cd", "adbcx")}`); // false
+
+module.exports = {
+  isValidShuffleBuiltIn,
+  isValidShuffleOptimized
+};

@@ -57,6 +57,12 @@ const removeDuplicatesOptimized = str => {
 };
 
 // 🔍 Example Test Cases
-console.log(`Brute-force: ${removeDuplicatesBruteForce("programming")}`); // "progamin"
-console.log(`Built-in: ${removeDuplicatesBuiltIn("language")}`); // "langue"
-console.log(`Optimized: ${removeDuplicatesOptimized("hello")}`); // "helo"
+// console.log(`Brute-force: ${removeDuplicatesBruteForce("programming")}`); // "progamin"
+// console.log(`Built-in: ${removeDuplicatesBuiltIn("language")}`); // "langue"
+// console.log(`Optimized: ${removeDuplicatesOptimized("hello")}`); // "helo"
+
+module.exports = {
+  removeDuplicatesBruteForce,
+  removeDuplicatesBuiltIn,
+  removeDuplicatesOptimized
+};

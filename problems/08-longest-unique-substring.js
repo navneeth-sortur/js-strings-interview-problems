@@ -55,6 +55,11 @@ const longestUniqueSubstringOptimized = str => {
 };
 
 // 🔍 Example Test Cases
-console.log(`Brute-force: ${longestUniqueSubstringBruteForce("abcabcbb")}`); // 3
-console.log(`Optimized: ${longestUniqueSubstringOptimized("pwwkew")}`); // 3
-console.log(`Optimized: ${longestUniqueSubstringOptimized("abcdeabcbb")}`); // 5
+// console.log(`Brute-force: ${longestUniqueSubstringBruteForce("abcabcbb")}`); // 3
+// console.log(`Optimized: ${longestUniqueSubstringOptimized("pwwkew")}`); // 3
+// console.log(`Optimized: ${longestUniqueSubstringOptimized("abcdeabcbb")}`); // 5
+
+module.exports = {
+  longestUniqueSubstringBruteForce,
+  longestUniqueSubstringOptimized
+};

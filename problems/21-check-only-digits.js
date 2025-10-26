@@ -32,7 +32,13 @@ const containsOnlyDigitsOptimized = str =>
   str.trim() !== "" && !isNaN(str) && !str.includes(" ");
 
 // 🔍 Example Test Cases
-console.log(containsOnlyDigitsBruteForce("12345")); // true
-console.log(containsOnlyDigitsBuiltIn("12a45")); // false
-console.log(containsOnlyDigitsOptimized("00123")); // true
-console.log(containsOnlyDigitsOptimized("12 45")); // false
+// console.log(containsOnlyDigitsBruteForce("12345")); // true
+// console.log(containsOnlyDigitsBuiltIn("12a45")); // false
+// console.log(containsOnlyDigitsOptimized("00123")); // true
+// console.log(containsOnlyDigitsOptimized("12 45")); // false
+
+module.exports = {
+  containsOnlyDigitsBruteForce,
+  containsOnlyDigitsBuiltIn,
+  containsOnlyDigitsOptimized
+};
